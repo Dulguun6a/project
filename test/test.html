@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title> Coffee Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Tyuk & Fluffy's Coffee Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="https://www.nescafe.com/mena/sites/default/files/styles/topic_intro_large/public/header%20banner%20desktop_0.jpg?itok=ZZm0eP7G" alt="Coffee Shop Interior">
+        <p>Welcome to Your Coffee Shop - Where Great Coffee Meets Cozy Atmosphere!</p>
+    </section>
+
+    <section class="menu">
+        <h2>Menu</h2>
+        <div class="menu1">
+            
+        <div class="menu-item" onclick="showDetails('Latte')">
+            <img src="https://static.vecteezy.com/system/resources/previews/023/522/886/original/cappuccino-coffee-cup-cutout-free-png.png" alt="Latte">
+            <h3>Latte</h3>
+            <p>A classic espresso-based coffee with steamed milk foam.</p>
+        </div>
+
+        <div class="menu-item" onclick="showDetails('americano')">
+            <img src="https://clipart-library.com/2023/Hot_Coffee_Cup_PNG_Clip_Art_Image.png" alt="Americano">
+            <h3>Americano</h3>
+            <p>A diluted espresso with hot water, creating a bold and smooth coffee.</p>
+        </div>
+
+        <div class="menu-item" onclick="showDetails('mocha')">
+            <img src="https://www.starbucks.com.au/assets/uploads/2023/08/sbx20190617-33218-caffemocha-onwhite-corelib-g7op.png" alt="Mocha">
+            <h3>Mocha</h3>
+            <p>Espresso with steamed milk and chocolate, topped with whipped cream.</p>
+        </div>
+        </div>
+
+        <div class="menu1">
+            <div class="menu-item" onclick="showDetails('Frappuccino')">
+                <img src="https://images.gopuff.com/blob/gopuffcatalogstorageprod/catalog-images-container/resize/cf/version=1_2,format=auto,fit=scale-down,width=800,height=800/a497f7be-d21d-4b4c-b6b5-d0b22444ce20.png" alt="Frappuccino">
+                <h3>Frappuccino</h3>
+                <p>An iced beverage that has been blended to produce a tasty, refreshing drink.</p>
+            </div>
+        </div>
+
+        <!-- Add more menu items as needed -->
+
+        <div id="item-details">
+            <!-- Item details will be displayed here using JavaScript -->
+        </div>
+    </section>
+
+    <script src="test.js"></script>
+</body>
+</html>
