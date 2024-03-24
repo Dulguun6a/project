@@ -1,8 +1,6 @@
 function showDetails(item) {
     const itemDetails = document.getElementById('item-details');
     let detailsHTML = '';
-    let niit = 0;
-    let latte = 1;
 
     switch (item) {
         case 'Latte':
@@ -30,7 +28,7 @@ function showDetails(item) {
             detailsHTML = '<h3>Chocolate Chip Cookie</h3><p>A sweet baked treat that is recognized by its butter flavor and the inclusion of chocolate chips.</p><p>Price: $1.99</p>';
             break;
         case 'Tiramisu':
-            detailsHTML = '<h3>Tiramisu</h3><p>An elegant and rich layered Italian dessert made with delicate ladyfinger cookies, espresso, mascarpone cheese, and cocoa powder.</p><p>Price: $7.49</p>';
+            detailsHTML = '<h3>Tiramisu</h3><p>An elegant and rich layered Italian dessert made with delicate ladyfinger cookies, espresso, mascarpone cheese, and cocoa powder.</p><p>Price: $6.49</p>';
             break;
         // Add details for more menu items as needed
         default:
@@ -38,4 +36,18 @@ function showDetails(item) {
     }
 
     itemDetails.innerHTML = detailsHTML;
+}
+let niit = document.getElementById('niit');
+let Price = ' '; 
+function latte(){
+    const latte = 4.49; 
+    let niit = niit + latte;
+}
+function americano(){
+    const americano = 2.99; 
+    let niit = niit + americano;
+}
+function mocha(){
+    const mocha = 4.99; 
+    let niit = niit + mocha;
 }
