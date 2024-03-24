@@ -1,8 +1,6 @@
 function showDetails(item) {
     const itemDetails = document.getElementById('item-details');
     let detailsHTML = '';
-    let niit = 0;
-    let latte = 1;
 
     switch (item) {
         case 'Latte':
