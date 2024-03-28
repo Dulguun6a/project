@@ -3,8 +3,9 @@ function showDetails(item) {
     let detailsHTML = '';
 
     switch (item) {
+
         case 'Latte':
-            detailsHTML = '<h3>Latte</h3><p>Espresso with a generous amount of steamed milk and a touch of foam.</p><p>Price: $4.49</p>';
+            detailsHTML = '<h3>Latte</h3><p>Espresso with a generous amount of steamed milk and a touch of foam.</p><p>Price: $4.49</p>' ;
             break;
         case 'americano':
             detailsHTML = '<h3>Americano</h3><p>A diluted espresso with hot water, creating a bold and smooth coffee.</p><p>Price: $2.99</p>';
