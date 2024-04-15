@@ -142,4 +142,17 @@ a{
     color: white;
     text-decoration: none;
 }
-
+.Animation{
+    width: 98%;
+    height:55vh;
+    background-color: #607d8b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius-left-bottom: 45deg ;
+}
+.Cup{
+    width: 280px;
+    height: 300px;
+    background:linear-gradient(to right, #f9f9f9, #d9d9d9)
+}
